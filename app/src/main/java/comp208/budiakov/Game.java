@@ -57,7 +57,7 @@ public class Game {
                 if(isFinished())
                     System.out.println("Finished in " + attempts + " attempts");
             } else {
-//                turn both cards face down after a short delay if not matched
+//                turn both cards face down after a short delay of 1 second if not matched
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
