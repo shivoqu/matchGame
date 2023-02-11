@@ -54,8 +54,9 @@ public class MainActivity extends AppCompatActivity {
     private void showScoreScreen(long start, int attempts, int score) {
         Intent intent = new Intent(this, ScoreActivity.class);
         long time = (System.currentTimeMillis() - start) / 1000;
-        int finalScore = score - ( Math.round(time) * ( attempts * 4 )  );
+        int finalScore = score - ( Math.round(time) * attempts );
         if(finalScore <= 50) finalScore = 50;
+        if(attempts == 6) finalScore = score;
 
         intent.putExtra("score", finalScore);
         intent.putExtra("time", time);

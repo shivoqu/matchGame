@@ -8,12 +8,23 @@
     tools:context=".ScoreActivity">
 
     <TextView
-        android:id="@+id/scoreTextView"
-        android:layout_width="366dp"
+        android:id="@+id/resultsTextView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginTop="32dp"
-        android:text="Score: "
+        android:text="@string/results"
+        android:textColor="#fff"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/score"
         android:textColor="#fff"
         android:textSize="30sp" />
 
@@ -21,9 +32,9 @@
         android:id="@+id/timeTextView"
         android:layout_width="369dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:text="Time: "
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/time"
         android:textColor="#fff"
         android:textSize="30sp" />
 
@@ -31,9 +42,10 @@
         android:id="@+id/attemptsTextView"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:text="Attempts: "
+        android:layout_marginTop="12dp"
+        android:text="@string/attempts"
         android:textColor="#fff"
         android:textSize="30sp" />
 
@@ -42,6 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
         android:text="Play Again" />
 
     <Button

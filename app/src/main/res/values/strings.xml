@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Valorant Match Game</string>
+    <string name="results">Final Results</string>
+    <string name="score">Score: </string>
+    <string name="time">Time: </string>
+    <string name="attempts">Attempts: </string>
 </resources>
