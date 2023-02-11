@@ -10,7 +10,7 @@ import java.util.List;
 import comp208.budiakov.Card;
 
 public class Game {
-    private Card[] cards;
+    private final Card[] cards;
     public long start;
     private int numPairsFound;
     public int score;
@@ -65,8 +65,6 @@ public class Game {
     private boolean checkForMatch(Card firstCard, Card secondCard) {
         attempts++;
         if (firstCard.getImageId() == secondCard.getImageId()) {
-//            firstCard.turnFaceUp();
-//            secondCard.turnFaceUp();
             numPairsFound++;
             return true;
         } else {

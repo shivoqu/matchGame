@@ -1,12 +1,11 @@
 package comp208.budiakov;
 
-import android.view.View;
 import android.widget.ImageView;
 
 public class Card {
-    private int imageId;
+    private final int imageId;
     private boolean isFaceUp;
-    private ImageView imageView;
+    private final ImageView imageView;
 
     public Card(int imageId, ImageView imageView) {
         this.imageId = imageId;
