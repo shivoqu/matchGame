@@ -28,21 +28,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <!--            APPLIES TO ALL IMAGE VIEWS
-                image views contain images with 2 possible states
-                initial state: the back image faces the user
-                when the user interacts with the card or has guessed the pair of cards correctly,
-                the card's back visibility will be set to 'gone' and the visibility of the
-                content of the current card will be set to visible -->
-            <ImageView
-                android:id="@+id/imageView1Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/car" />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -55,16 +40,6 @@
                 app:srcCompat="@drawable/back" />
 
             <ImageView
-                android:id="@+id/imageView2Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/forsaken" />
-
-            <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
                 android:layout_height="189dp"
@@ -74,16 +49,6 @@
                 app:srcCompat="@drawable/back" />
 
             <ImageView
-                android:id="@+id/imageView3Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/forsaken" />
-
-            <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="0dp"
                 android:layout_height="189dp"
@@ -91,16 +56,6 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/back" />
-
-            <ImageView
-                android:id="@+id/imageView4Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/oni" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -116,17 +71,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
-            <ImageView
-                android:id="@+id/imageView5Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/reaver" />
-
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="0dp"
@@ -137,16 +81,6 @@
                 app:srcCompat="@drawable/back" />
 
             <ImageView
-                android:id="@+id/imageView6Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/rift" />
-
-            <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="0dp"
                 android:layout_height="189dp"
@@ -154,17 +88,6 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/back" />
-
-
-            <ImageView
-                android:id="@+id/imageView7Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/dragon" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -174,16 +97,6 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/back" />
-
-            <ImageView
-                android:id="@+id/imageView8Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/car" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -199,17 +112,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
-            <ImageView
-                android:id="@+id/imageView9Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/dragon" />
-
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="0dp"
@@ -218,16 +120,6 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/back" />
-
-            <ImageView
-                android:id="@+id/imageView10Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/oni" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -239,16 +131,6 @@
                 app:srcCompat="@drawable/back" />
 
             <ImageView
-                android:id="@+id/imageView11Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/rift" />
-
-            <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="0dp"
                 android:layout_height="189dp"
@@ -256,16 +138,6 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 app:srcCompat="@drawable/back" />
-
-            <ImageView
-                android:id="@+id/imageView12Answer"
-                android:layout_width="0dp"
-                android:layout_height="189dp"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:visibility="gone"
-                app:srcCompat="@drawable/reaver" />
 
             <ImageView
                 android:id="@+id/imageView12"

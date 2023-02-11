@@ -1,13 +1,36 @@
 package comp208.budiakov;
 
-public class Card {
-    public boolean isUpwards;
+import android.view.View;
+import android.widget.ImageView;
 
-    public Card(){
-        isUpwards = false;
+public class Card {
+    private int imageId;
+    private boolean isFaceUp;
+    private ImageView imageView;
+
+    public Card(int imageId, ImageView imageView) {
+        this.imageId = imageId;
+        this.isFaceUp = false;
+        this.imageView = imageView;
+
+        imageView.setImageResource(R.drawable.back);
     }
 
-    public void flip(){
-        this.isUpwards = !this.isUpwards;
+    public int getImageId() {
+        return imageId;
+    }
+
+    public boolean isFaceUp() {
+        return isFaceUp;
+    }
+
+    public void turnFaceUp() {
+        isFaceUp = true;
+        imageView.setImageResource(imageId);
+    }
+
+    public void turnFaceDown() {
+        isFaceUp = false;
+        imageView.setImageResource(R.drawable.back);
     }
 }
